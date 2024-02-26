@@ -63,7 +63,7 @@ public class TV {
 		numTV = numero;
 	}
 		
-	public int getNumTV(){
+	public static int getNumTV(){
 		return numTV;
 	}
 	
