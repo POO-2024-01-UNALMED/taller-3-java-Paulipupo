@@ -9,13 +9,13 @@ public class TV {
 	private Control control;
 	private static int numTV = 0;
 	
-	public TV(Marca mar, boolean est){
-		marca = mar;
-		estado = est;
+	public TV(Marca marca, boolean estado){
+		this.marca = marca;
+		this.estado = estado;
 		TV.numTV++;
 	}
 	
-	public void setNombre(Marca marca) {
+	public void setMarca(Marca marca) {
 		this.marca = marca;
 	}
 		
