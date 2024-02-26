@@ -59,7 +59,7 @@ public class TV {
 		return control;
 	}
 	
-	public void setNumTV(int numero) {
+	public static void setNumTV(int numero) {
 		numTV = numero;
 	}
 		
@@ -71,7 +71,7 @@ public class TV {
 		estado = true;
 	}
 	
-	public void turnOf() {
+	public void turnOff() {
 		estado = false;
 	}
 	
